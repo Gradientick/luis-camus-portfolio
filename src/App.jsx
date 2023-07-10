@@ -1,5 +1,10 @@
+import NavBar from "./components/NavBar";
 function App() {
-  return <>Luis Camus pogi</>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
 export default App;
