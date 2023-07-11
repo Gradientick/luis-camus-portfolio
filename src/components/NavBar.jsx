@@ -1,8 +1,9 @@
 function NavBar() {
   return (
-    <div>
-      <h1 className="bg-slate-900">hello</h1>
-      <h2>World</h2>
+    <div className="bg-header h-20 flex justify-center items-center">
+      <h1 className="text-2xl font-sans font-semibold text-zinc-200">
+        DevIt<span className="text-light">Luis.</span>
+      </h1>
     </div>
   );
 }
