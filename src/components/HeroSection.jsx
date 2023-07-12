@@ -10,7 +10,7 @@ function HeroSection() {
           className="w-56 rounded-full "
         />
       </div>
-      <h2 className="text-header font-sans text-lg font-bold border-bot">
+      <h2 className="text-header font-sans text-4xl font-bold border-bot">
         Luis Camus
       </h2>
       <p className="text-textc font-semibold font-sans">
