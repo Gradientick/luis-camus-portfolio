@@ -3,7 +3,7 @@ import dev from "../images/dev.png";
 function HeroSection() {
   return (
     <div className="bg-primary h-96 flex flex-col justify-center items-center gap-3 ">
-      <div className="bg-secondary w-56 rounded-full shadow-lg overflow-clip">
+      <div className="bg-secondary w-56 rounded-full shadow-lg overflow-clip transition-all hover:bg-header">
         <img
           src={dev}
           alt="photo of the developer"

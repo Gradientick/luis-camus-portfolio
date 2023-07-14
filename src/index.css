@@ -5,3 +5,9 @@
 .border-bot {
   border-bottom: 1px solid;
 }
+
+.myasenso {
+  background-image: url("./images/works/myasenso.png");
+  width: 100%;
+  height: auto;
+}
