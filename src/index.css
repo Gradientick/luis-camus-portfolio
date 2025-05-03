@@ -11,3 +11,12 @@
   width: 100%;
   height: auto;
 }
+
+.hero-section {
+  height: 90vh;
+  background-color: #FAFAFA;
+}
+
+.resume-button {
+  background-color: #10B981
+}

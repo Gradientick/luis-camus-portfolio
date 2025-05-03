@@ -1,21 +1,22 @@
 import AboutSection from "./components/AboutSection";
-
-import Footer from "./components/Footer";
+import ContactSection from "./components/ContactSections";
+import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
-import Skills from "./components/Skills";
-import Spacer from "./components/Spacer";
-import Work from "./components/Work";
+import ProjectsSection from "./components/ProjectsSection";
+import SkillsSection from "./components/SkillsSection";
+import TestimonialsSection from "./components/Testimonials";
 function App() {
   return (
     <>
       <NavBar />
-      <Spacer />
-      <HeroSection />
-      <AboutSection />
-      <Skills />
-      <Work />
-      <Footer />
+      <HeroSection/>
+      <AboutSection/>
+      <SkillsSection/>
+      <ProjectsSection/>
+      <TestimonialsSection/>
+      <ContactSection/>
+      <FooterSection/>
     </>
   );
 }

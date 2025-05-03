@@ -1,22 +1,21 @@
-import React from "react";
-import dev from "../images/dev.png";
+import dev from "../images/dev1.png";
 function HeroSection() {
   return (
-    <div className="bg-primary h-96 flex flex-col justify-center items-center gap-3 ">
-      <div className="bg-secondary w-56 rounded-full shadow-lg overflow-clip transition-all hover:bg-header">
-        <img
-          src={dev}
-          alt="photo of the developer"
-          className="w-56 rounded-full "
-        />
-      </div>
-      <h2 className="text-header font-sans text-4xl font-bold border-bot">
-        Luis Camus
-      </h2>
-      <p className="text-textc font-semibold font-sans">
-        "Molding the Web to Your Needs"
-      </p>
-    </div>
+    <div className="bg-primary hero-section flex flex-col justify-center items-center gap-4 py-12">
+  <div className="bg-secondary w-56 rounded-full shadow-xl overflow-hidden transition-transform duration-300 hover:scale-105">
+    <img
+      src={dev}
+      alt="Photo of Luis Camus"
+      className="w-full h-full object-cover"
+    />
+  </div>
+  <h2 className="text-header font-sans text-4xl font-bold tracking-tight">
+    Luis Camus
+  </h2>
+  <p className="text-textc font-medium font-sans text-center max-w-lg text-lg px-4">
+    Building Purpose-Driven Websites That Work for You
+  </p>
+</div>
   );
 }
 
