@@ -14,7 +14,7 @@ function NavBar() {
         DevIt<span className="text-light">Luis.</span>
       </h1>
       <div className="resume-button w-fit px-5 py-2 z-10 transition-all duration-200 ease-in-out cursor-pointer bg-[#2563EB] text-white rounded-md shadow-md hover:bg-white hover:text-header border border-[#2563EB]">
-  <a href={resume} download="Luis Camus Resume">
+  <a href="#contact">
     Work With Me
   </a>
 </div>

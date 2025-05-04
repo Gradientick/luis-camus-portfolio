@@ -11,7 +11,7 @@ const ContactSection = () => {
           </p>
   
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:camus.luis95@gmail.com"
             className="inline-block bg-[#2563EB] text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-white hover:text-[#2563EB] border border-[#2563EB] transition"
           >
             Send Me an Email
@@ -20,7 +20,7 @@ const ContactSection = () => {
           <div className="flex justify-center gap-6 mt-8">
             {/* Replace these with your actual links */}
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/gradientick"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-header hover:text-blue-600 transition"
@@ -28,7 +28,7 @@ const ContactSection = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="www.linkedin.com/in/luis-camus-342a81155"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-header hover:text-blue-600 transition"
@@ -36,12 +36,12 @@ const ContactSection = () => {
               LinkedIn
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://www.instagram.com/luis.scrd/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-header hover:text-blue-600 transition"
             >
-              Twitter
+                Instagram
             </a>
           </div>
         </div>

@@ -4,7 +4,7 @@ import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import ProjectsSection from "./components/ProjectsSection";
-import SkillsSection from "./components/SkillsSection";
+import StrengthsSection from "./components/StrengthsSection";
 import TestimonialsSection from "./components/Testimonials";
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <HeroSection/>
       <AboutSection/>
-      <SkillsSection/>
+      <StrengthsSection/>
       <ProjectsSection/>
       <TestimonialsSection/>
       <ContactSection/>

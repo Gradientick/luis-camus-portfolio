@@ -1,17 +1,19 @@
+import benjie from '../images/testimonials/benjie.jpg'
+
 const testimonials = [
     {
-      name: "Anna Dela Cruz",
-      role: "Cafe Owner, Brew & Bloom",
+      name: "Benjie Angeles",
+      role: "Junior Software Engineer",
       feedback:
-        "Working with Luis was seamless. He built a loyalty system for my cafe that my customers love—and it boosted our repeat visits!",
-      avatar: "/images/testimonial1.jpg", // Optional: your path to image
+        "Luis was my classmate in Kodego and my colleague in PulsarSD. We did a couple of practice exercises and I can tell that he is very professional when at work and a fun dude outside of work.",
+      avatar: benjie, // Optional: your path to image
     },
     {
       name: "Mark Rivera",
       role: "Startup Founder",
       feedback:
         "Luis brought clarity and speed to our web app. His attention to detail and ability to adapt quickly really impressed me.",
-      avatar: "/images/testimonial2.jpg",
+      avatar: "../images/testimonials/benjie.jpg",
     },
     {
       name: "Elaine Tan",

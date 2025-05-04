@@ -8,19 +8,19 @@ const projects = [
       github: "https://github.com/yourusername/cafecollect",
     },
     {
-      title: "STAM Document Verifier",
+      title: "Econ Stat Integrity Experiment",
       description:
-        "A blockchain-based app to verify documents by scanning a QR code, ensuring data integrity and reducing fraud.",
-      tech: ["Angular", "TypeScript", "Ethereum"],
-      link: "",
-      github: "https://github.com/yourusername/stam-doc-verifier",
+        "A lightweight React-based web app designed as a behavioral research tool to evaluate participant integrity in a controlled experimental setting. Users interact with randomized visual stimuli (colored balls), then self-report outcomes via a Google Form. Originally built for online use in academic environments where in-person experiments were not possible, this tool helps measure statistical honesty under minimal supervision.",
+      tech: ["React", "Tailwind CSS", "Google Forms"],
+      link: "https://econ-stat-experiment.web.app",
+      github: "https://github.com/Gradientick/econ-stat-experiment",
     },
     {
       title: "NFC Portfolio Card",
       description:
         "A tap-enabled NFC business card that directs users to a personal portfolio, built for networking and fast sharing.",
       tech: ["React", "Netlify", "NFC Tools"],
-      link: "",
+      link: "https://econ-stat-experiment.web.app",
       github: "https://github.com/yourusername/nfc-portfolio",
     },
   ];

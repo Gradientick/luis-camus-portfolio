@@ -37,6 +37,7 @@ const AboutSection = () => {
           </p>
         </div>
       </div>
+
     </section>
   );
 };
