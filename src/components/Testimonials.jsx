@@ -7,20 +7,23 @@ const testimonials = [
       feedback:
         "Luis was my classmate in Kodego and my colleague in PulsarSD. We did a couple of practice exercises and I can tell that he is very professional when at work and a fun dude outside of work.",
       avatar: benjie, // Optional: your path to image
+      link: "",
     },
     {
-      name: "Mark Rivera",
-      role: "Startup Founder",
+      name: "Michael Andrew Paz",
+      role: "Software Engineer, Career TEAM",
       feedback:
-        "Luis brought clarity and speed to our web app. His attention to detail and ability to adapt quickly really impressed me.",
-      avatar: "../images/testimonials/benjie.jpg",
+        "I worked with him during my early days training for web development. There was this paired project making where we were tasked to create a simple ststic website that has some typical e-commerce services we see from typical shopping sites we see nowadays",
+      avatar: "",
+      link: "https://www.linkedin.com/in/michael-andrew-paz-012651245/",
     },
     {
-      name: "Elaine Tan",
-      role: "Project Lead, STAM",
+      name: "Jason Ralf B. Merjilla",
+      role: "Graduate, University of the Philippines - Los Baños",
       feedback:
-        "We needed a fast, secure way to verify documents—and Luis delivered. His smart contract integration made it all work.",
-      avatar: "/images/testimonial3.jpg",
+        "Luis helped me with my university thesis, creating an application to disseminate information and collect social experiment results from respondents. His provided value was recognized even by my adviser who was a veteran in terms of socio-economic experimentations.",
+      avatar: "",
+      link: "https://www.linkedin.com/in/jason-ralf-merjilla-a94900282/",
     },
   ];
 
@@ -36,13 +39,24 @@ const testimonials = [
                 className="bg-[#F9FAFB] p-6 rounded-lg shadow-sm hover:shadow-md transition"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <img
-                    src={t.avatar}
-                    alt={`Photo of ${t.name}`}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
+                  {t.avatar && t.avatar.trim() !== "" ? (
+                    <img
+                      src={t.avatar}
+                      alt={`Photo of ${t.name}`}
+                      className="w-12 h-12 rounded-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-12 aspect-square rounded-full bg-gray-200 flex items-center justify-center text-sm font-bold text-gray-600">
+                      {t.name.trim()
+                        .split(" ")
+                        .map((n) => n[0])
+                        .join("")
+                        .slice(0, 2)
+                        .toUpperCase()}
+                    </div>
+                  )}
                   <div>
-                    <p className="font-semibold text-header">{t.name}</p>
+                    <a href={t.link} target="_blank" className="font-semibold text-header" rel="noreferrer">{t.name}</a>
                     <p className="text-sm text-textc">{t.role}</p>
                   </div>
                 </div>

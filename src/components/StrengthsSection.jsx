@@ -24,7 +24,7 @@ const StrengthsSection = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {[
               "JavaScript", "React", "Angular", "Node.js",
-              "Django", "HTML5", "CSS3", "Tailwind CSS"
+              "Django", "HTML5", "CSS3", "Tailwind CSS", "Solidity", "Firebase", "Git & Github", "Hardhat"
             ].map((skill, i) => (
               <div key={i} className="bg-[#f9f9f9] px-4 py-2 rounded-md shadow text-center font-medium">
                 {skill}
