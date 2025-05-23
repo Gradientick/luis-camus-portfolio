@@ -28,7 +28,7 @@ const ContactSection = () => {
               GitHub
             </a>
             <a
-              href="www.linkedin.com/in/luis-camus-342a81155"
+              href="https://www.linkedin.com/in/luis-camus-342a81155"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl text-header hover:text-blue-600 transition"
