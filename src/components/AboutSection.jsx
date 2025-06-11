@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import aboutImage from '../images/about-me.png'
+import aboutImage from '../images/about-me.webp'
 const AboutSection = () => {
   const [isMobile, setIsMobile] = useState(false);
 

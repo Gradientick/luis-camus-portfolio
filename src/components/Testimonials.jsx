@@ -6,8 +6,8 @@ const testimonials = [
       role: "Junior Software Engineer",
       feedback:
         "Luis was my classmate in Kodego and my colleague in PulsarSD. We did a couple of practice exercises and I can tell that he is very professional when at work and a fun dude outside of work.",
-      avatar: benjie, // Optional: your path to image
-      link: "",
+      avatar: benjie,
+      link: "https://www.linkedin.com/in/benjiegilangeles/",
     },
     {
       name: "Michael Andrew Paz",

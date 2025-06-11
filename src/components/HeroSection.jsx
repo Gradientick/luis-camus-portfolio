@@ -1,4 +1,4 @@
-import dev from "../images/dev1.png";
+import dev from "../images/dev1.webp";
 function HeroSection() {
   return (
     <div className="bg-primary hero-section flex flex-col justify-center items-center gap-4 py-12">

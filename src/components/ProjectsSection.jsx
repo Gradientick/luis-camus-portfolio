@@ -4,7 +4,6 @@ const projects = [
       description:
         "A digital loyalty card and promotions platform for cafes and restaurants. Built to help local businesses engage repeat customers with ease.",
       tech: ["React", "Firebase", "Tailwind CSS"],
-      link: "https://your-live-demo-link.com", // replace with actual link
       github: "https://github.com/Gradientick/CafeCollect",
       labels: ["Work In Progress"],
     },
@@ -51,9 +50,9 @@ const projects = [
       <section id="projects" className="w-full bg-[#F9FAFB] py-20 px-6 flex justify-center">
         <div className="max-w-6xl w-full flex flex-col items-center">
           <h3 className="text-3xl font-bold text-header mb-10">Projects</h3>
-          <div className="w-full grid md:grid-cols-2 gap-8">
+          <div className="w-full flex overflow-x-auto space-x-4 snap-x snap-mandatory md:grid md:grid-cols-2 md:gap-8">
             {projects.map((project, i) => (
-              <div key={i} className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition">
+              <div key={i} className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition flex-shrink-0 w-80 snap-start md:flex-shrink-0 md:w-auto md:snap-none">
                 <h4 className="text-xl font-semibold text-header mb-2">{project.title}</h4>
                 {project.labels?.map((label, idx) => (
                   <span
